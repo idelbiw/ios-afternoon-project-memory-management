@@ -5,13 +5,13 @@
 //  Created by Waseem Idelbi on 10/5/20.
 //
 
-#import "ViewController.h"
+#import "LSIContactDetailViewController.h"
 
-@interface ViewController ()
+@interface LSIContactDetailViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LSIContactDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

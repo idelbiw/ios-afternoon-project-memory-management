@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		7B0FF086252C0CF100AC50B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0FF085252C0CF100AC50B5 /* AppDelegate.m */; };
 		7B0FF089252C0CF100AC50B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0FF088252C0CF100AC50B5 /* SceneDelegate.m */; };
-		7B0FF08C252C0CF100AC50B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0FF08B252C0CF100AC50B5 /* ViewController.m */; };
+		7B0FF08C252C0CF100AC50B5 /* LSIContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0FF08B252C0CF100AC50B5 /* LSIContactDetailViewController.m */; };
 		7B0FF08F252C0CF100AC50B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0FF08D252C0CF100AC50B5 /* Main.storyboard */; };
 		7B0FF091252C0CF200AC50B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B0FF090252C0CF200AC50B5 /* Assets.xcassets */; };
 		7B0FF094252C0CF200AC50B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0FF092252C0CF200AC50B5 /* LaunchScreen.storyboard */; };
 		7B0FF097252C0CF200AC50B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0FF096252C0CF200AC50B5 /* main.m */; };
+		7B0FF0AB252C17DF00AC50B5 /* LSIContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0FF0AA252C17DF00AC50B5 /* LSIContactsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +23,15 @@
 		7B0FF085252C0CF100AC50B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7B0FF087252C0CF100AC50B5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		7B0FF088252C0CF100AC50B5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		7B0FF08A252C0CF100AC50B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7B0FF08B252C0CF100AC50B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B0FF08A252C0CF100AC50B5 /* LSIContactDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIContactDetailViewController.h; sourceTree = "<group>"; };
+		7B0FF08B252C0CF100AC50B5 /* LSIContactDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIContactDetailViewController.m; sourceTree = "<group>"; };
 		7B0FF08E252C0CF100AC50B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B0FF090252C0CF200AC50B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B0FF093252C0CF200AC50B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B0FF095252C0CF200AC50B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B0FF096252C0CF200AC50B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B0FF0A9252C17DF00AC50B5 /* LSIContactsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIContactsTableViewController.h; sourceTree = "<group>"; };
+		7B0FF0AA252C17DF00AC50B5 /* LSIContactsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIContactsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +79,8 @@
 		7B0FF09E252C0D0700AC50B5 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7B0FF08A252C0CF100AC50B5 /* ViewController.h */,
-				7B0FF08B252C0CF100AC50B5 /* ViewController.m */,
+				7B0FF0A7252C177400AC50B5 /* ContactTableVC */,
+				7B0FF0A6252C175600AC50B5 /* ContactDetailVC */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -122,6 +125,24 @@
 				7B0FF092252C0CF200AC50B5 /* LaunchScreen.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		7B0FF0A6252C175600AC50B5 /* ContactDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				7B0FF08A252C0CF100AC50B5 /* LSIContactDetailViewController.h */,
+				7B0FF08B252C0CF100AC50B5 /* LSIContactDetailViewController.m */,
+			);
+			name = ContactDetailVC;
+			sourceTree = "<group>";
+		};
+		7B0FF0A7252C177400AC50B5 /* ContactTableVC */ = {
+			isa = PBXGroup;
+			children = (
+				7B0FF0A9252C17DF00AC50B5 /* LSIContactsTableViewController.h */,
+				7B0FF0AA252C17DF00AC50B5 /* LSIContactsTableViewController.m */,
+			);
+			name = ContactTableVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B0FF08C252C0CF100AC50B5 /* ViewController.m in Sources */,
+				7B0FF08C252C0CF100AC50B5 /* LSIContactDetailViewController.m in Sources */,
 				7B0FF086252C0CF100AC50B5 /* AppDelegate.m in Sources */,
+				7B0FF0AB252C17DF00AC50B5 /* LSIContactsTableViewController.m in Sources */,
 				7B0FF097252C0CF200AC50B5 /* main.m in Sources */,
 				7B0FF089252C0CF100AC50B5 /* SceneDelegate.m in Sources */,
 			);
